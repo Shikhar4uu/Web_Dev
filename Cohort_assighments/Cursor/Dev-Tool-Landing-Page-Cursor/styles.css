@@ -296,3 +296,48 @@ p {
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+
+.use_cases_div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 3rem 0rem 3rem;
+}
+
+
+.use_case_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgb(27, 25, 19);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.use_case_card h3{
+  color: rgb(237, 236, 236);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.use_case_card p{
+  color: rgb(154, 153, 150);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.use_case_card a{
+  margin-top: 20px;
+  color: rgb(254, 68, 21);
+  font-size: 1rem;
+}
+
+.use_case_card video{
+  height: 98%;
+  width: auto;
+  border-radius: 5px;
+}
